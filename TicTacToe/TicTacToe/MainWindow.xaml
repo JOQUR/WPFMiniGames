@@ -7,24 +7,6 @@
         mc:Ignorable="d"
         Title="TICTACTOE" Height="600" Width="600"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions >
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Button x:Name="x1" Click="x1_Click" Grid.Column="0"/>
-        <Button x:Name="x2" Click="x2_Click" Grid.Column="1"/>
-        <Button x:Name="x3" Click="x3_Click" Grid.Column="2"/>
-        <Button x:Name="x4" Click="x4_Click" Grid.Column="0" Grid.Row="1"/>
-        <Button x:Name="x5" Click="x5_Click" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="x6" Click="x6_Click" Grid.Column="2" Grid.Row="1"/>
-        <Button x:Name="x7" Click="x7_Click" Grid.Column="0" Grid.Row="2"/>
-        <Button x:Name="x8" Click="x8_Click" Grid.Column="1" Grid.Row="2"/>
-        <Button x:Name="x9" Click="x9_Click" Grid.Column="2" Grid.Row="2"/>
+        <Button  x:Name="Local" Click="Local_Click" Content="Start Local Game!" Width="150" Height="50" Margin="222 150 222 371"/>
     </Grid>
 </Window>
